@@ -17,7 +17,7 @@ df = pd.DataFrame({"cpu": cpu_data})
 # ===========================
 # 2. Configurer MLflow avec SQLite
 # ===========================
-mlflow.set_tracking_uri("sqlite:///C:/Users/DELL/Desktop/pp/mlflow.db")
+mlflow.set_tracking_uri("sqlite:///C:/Users/DELL/Desktop/CPU_Anomaly_MLflow/mlflow.db")
 mlflow.set_experiment("CPU_Anomaly_Detection")  # Cette fois l'expérience doit apparaître
 
 # ===========================
