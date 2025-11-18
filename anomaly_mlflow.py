@@ -59,4 +59,4 @@ with mlflow.start_run():
     mlflow.log_artifact("cpu_anomalies.png")
     plt.close()
 
-print("Terminé ! Lance 'mlflow ui --backend-store-uri sqlite:///C:/Users/DELL/Desktop/pp/mlflow.db'")
+print("Terminé ! Lance 'mlflow ui --backend-store-uri sqlite:///C:/Users/DELL/Desktop/CPU_Anomaly_MLflow/mlflow.db'")
